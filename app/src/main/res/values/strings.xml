@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestView</string>
+    <string name="lesstion_1_note_1">搞清楚3个概念就很容易理解：\n普通View；\nView的parent、\n整个屏幕</string>
+    <string name="lesstion_1_note_2">每个View都有自己坐标体系，View的左上角为原点(0,0)；\n整个屏幕是一个常用特殊View</string>
+</resources>
