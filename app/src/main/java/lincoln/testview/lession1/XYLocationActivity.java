@@ -14,6 +14,9 @@ import butterknife.OnClick;
 import lincoln.testview.R;
 import lincoln.testview.util.DensityUtil;
 
+/**
+ * 第一节课： Android 坐标体系
+ */
 public class XYLocationActivity extends AppCompatActivity {
 
     @BindView(R.id.lession1_imageview)

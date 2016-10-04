@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lincoln.testview.lession2.LifeImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:src="@drawable/lession2" />
