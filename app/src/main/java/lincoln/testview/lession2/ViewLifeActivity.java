@@ -31,7 +31,7 @@ public class ViewLifeActivity extends AppCompatActivity {
             public void run() {
                 int width = lession2LifeImageView.getWidth();
                 int height = lession2LifeImageView.getHeight();
-                Log.d("lincoln","view--->Width:"+width+" -->Height:"+height);
+                Log.d("lincoln", "view--->Width:" + width + " -->Height:" + height);
             }
         });
 

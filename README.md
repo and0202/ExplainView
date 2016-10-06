@@ -32,4 +32,44 @@
  	其他思路：
 		根据View创建时的生命周期可以知道，只要在onMeasure()方法之后都可以获得View的真实宽高
 
+###第三讲：Paint、Canvas、Matrix使用
+![饼状图](http://upload-images.jianshu.io/upload_images/1494999-543d3e13cf97d002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+	步骤
+	1 获取宽高，计算出半径R
+	2 移动到圆心
+	3 根据角度绘制 『弧度』
 	
+----------------------------
+
+![两个简单图形](http://upload-images.jianshu.io/upload_images/1494999-d9aabfa6e0b7c1e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+	圆形：
+	@Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        canvas.translate(width/2,height/2);
+
+        // 绘制两个圆形
+        canvas.drawCircle(0,0,MAX_RADIU,mPaint);
+        canvas.drawCircle(0,0,MIN_RADIU,mPaint);
+        for (int index =0;index < 20; index++){
+        	//绘制直线
+            canvas.drawLine(0,MIN_RADIU,0,MAX_RADIU,mPaint);
+            canvas.rotate(20);
+        }
+
+    }
+	
+
+	正方形：
+	 @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        canvas.translate(width/2,height/2);
+        for (int index =0;index < 10; index++){
+        	//关键方法
+            canvas.scale(0.8f,0.8f);
+            canvas.drawRect(rectF,mPaint);
+        }
+    }

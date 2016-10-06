@@ -10,3 +10,5 @@
 	         View绘制过程中会多次调用onMeasure()方法，来确定View的大小
 	onWindowFocusChanged() true：View失去焦点
 	onDetachedFromWindow()：Activity销毁时，View从Window上移除
+
+	

@@ -27,4 +27,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="第二课：Vew的生命周期"/>
+    <Button
+        android:id="@+id/lession3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二课：Paint|Canvas|Matrix"/>
 </LinearLayout>

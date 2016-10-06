@@ -9,6 +9,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import lincoln.testview.lession1.XYLocationActivity;
 import lincoln.testview.lession2.ViewLifeActivity;
+import lincoln.testview.lession3.Lession3Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.lession2)
     public void lession2() {
         MainUtil.goToNewActivity(this, ViewLifeActivity.class);
+    }
+
+    @OnClick(R.id.lession3)
+    public void lession3() {
+        MainUtil.goToNewActivity(this, Lession3Activity.class);
     }
 
 }

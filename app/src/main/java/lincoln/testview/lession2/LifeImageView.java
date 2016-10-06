@@ -9,6 +9,7 @@ import android.widget.ImageView;
  * Created by lincoln on 16/10/4.
  */
 public class LifeImageView extends ImageView{
+
     public LifeImageView(Context context) {
         super(context);
         Lession2LogUtil.init();

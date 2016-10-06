@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="lincoln.testview.lession3.Lession3Activity">
+
+        <lincoln.testview.lession3.Pie.PaintView
+            android:id="@+id/lession3_paintView"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <lincoln.testview.lession3.AmuseShape.ShapeRectView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin" />
+        
+        <lincoln.testview.lession3.AmuseShape.ShapeCircleView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+</ScrollView>
