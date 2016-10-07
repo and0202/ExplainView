@@ -12,6 +12,8 @@
         android:padding="@dimen/activity_horizontal_margin"
         tools:context="lincoln.testview.lession3.Lession3Activity">
 
+
+
         <lincoln.testview.lession3.Pie.PaintView
             android:id="@+id/lession3_paintView"
             android:layout_width="200dp"
@@ -24,8 +26,16 @@
         
         <lincoln.testview.lession3.AmuseShape.ShapeCircleView
             android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
             android:layout_width="200dp"
             android:layout_height="200dp" />
+
+        <lincoln.testview.lession3.SpiderWeb.SpiderWebView
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+
 
     </LinearLayout>
 </ScrollView>
