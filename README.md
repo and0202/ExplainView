@@ -32,7 +32,8 @@
  	其他思路：
 		根据View创建时的生命周期可以知道，只要在onMeasure()方法之后都可以获得View的真实宽高
 
-###第三讲：Paint、Canvas、Matrix使用
+###第三讲：Canvas、Path、Matrix使用
+#####Canvas使用示例：
 ![饼状图](http://upload-images.jianshu.io/upload_images/1494999-543d3e13cf97d002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 	步骤
@@ -74,6 +75,9 @@
         }
     }
 ----------------------------------
+#####Path使用示例：
+![饼状图](http://upload-images.jianshu.io/upload_images/1494999-f38b747f435f8e9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 	雷达蜘蛛网：
 	核心：Path的两个方法：
@@ -98,3 +102,30 @@
 	 参考：http://www.jianshu.com/p/590685091f58
 	 	  http://www.jianshu.com/p/29f807426fde
 	 	  角度和弧度定义及转换：http://developer.178.com/201103/95392224259.html
+
+
+
+###第四讲：贝赛尔曲线实例：
+#####圆变成心形实例：
+![](http://upload-images.jianshu.io/upload_images/1494999-8e84775f9438bb14.gif?imageMogr2/auto-orient/strip)
+	
+	步骤如下：
+		1 绘制坐标系()
+  		2 绘制数据点和辅助线
+    	3 绘制贝赛尔曲线，动态变更数据
+   		4 把1，2步注释掉，即可。
+
+#####一个酷炫的Loading
+	步骤如下：
+		1 绘制背景
+		2 绘制进度条，所有部分
+		3 绘制叶子
+		4 绘制进度条，完成部分
+		5 绘制遮罩
+		6 绘制风扇
+		
+	 
+######参考文章：
+[一个绚丽的loading动效分析与实现！](http://blog.csdn.net/tianjian4592/article/details/44538605)
+
+###第四讲：ListView源码研究

@@ -15,10 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".move.MainLayoutActivity" />
-        <activity android:name=".lession1.XYLocationActivity" />
-        <activity android:name=".lession2.ViewLifeActivity" />
-        <activity android:name=".lession3.Lession3Activity"></activity>
+        <activity android:name=".view.move.MainLayoutActivity" />
+        <activity android:name=".view.lession1.XYLocationActivity" />
+        <activity android:name=".view.lession2.ViewLifeActivity" />
+        <activity android:name=".view.lession3.Lession3Activity" />
+        <activity android:name=".view.lession4.BezierAcivity"></activity>
     </application>
 
 </manifest>

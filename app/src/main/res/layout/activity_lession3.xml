@@ -10,27 +10,27 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin"
-        tools:context="lincoln.testview.lession3.Lession3Activity">
+        tools:context=".view.lession3.Lession3Activity">
 
 
 
-        <lincoln.testview.lession3.Pie.PaintView
+        <lincoln.testview.view.lession3.Pie.PaintView
             android:id="@+id/lession3_paintView"
             android:layout_width="200dp"
             android:layout_height="200dp" />
 
-        <lincoln.testview.lession3.AmuseShape.ShapeRectView
+        <lincoln.testview.view.lession3.AmuseShape.ShapeRectView
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginTop="@dimen/activity_horizontal_margin" />
         
-        <lincoln.testview.lession3.AmuseShape.ShapeCircleView
+        <lincoln.testview.view.lession3.AmuseShape.ShapeCircleView
             android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_horizontal_margin"
             android:layout_width="200dp"
             android:layout_height="200dp" />
 
-        <lincoln.testview.lession3.SpiderWeb.SpiderWebView
+        <lincoln.testview.view.lession3.SpiderWeb.SpiderWebView
             android:layout_marginBottom="@dimen/activity_horizontal_margin"
             android:layout_width="200dp"
             android:layout_height="200dp" />

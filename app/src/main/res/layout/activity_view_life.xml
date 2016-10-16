@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<lincoln.testview.lession2.LifeImageView xmlns:android="http://schemas.android.com/apk/res/android"
+<lincoln.testview.view.lession2.LifeImageView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300dp"
     android:layout_height="450dp"

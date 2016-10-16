@@ -14,7 +14,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="lincoln.testview.lession1.XYLocationActivity"
+    tools:context=".view.lession1.XYLocationActivity"
     android:visibility="visible">
 
 

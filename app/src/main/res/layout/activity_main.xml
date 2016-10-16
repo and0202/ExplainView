@@ -31,5 +31,11 @@
         android:id="@+id/lession3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="第二课：Paint|Canvas|Matrix"/>
+        android:text="第三课：Paint|Canvas|Matrix"/>
+
+    <Button
+        android:id="@+id/lession4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第四课：贝赛尔曲线的使用"/>
 </LinearLayout>

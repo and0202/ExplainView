@@ -7,9 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="lincoln.testview.move.MainLayoutActivity">
+    tools:context=".view.move.MainLayoutActivity">
     
-    <lincoln.testview.move.CustomMoveView
+    <lincoln.testview.view.move.CustomMoveView
         android:id="@+id/customMoveView"
         android:background="@color/red"
         android:layout_width="80dp"

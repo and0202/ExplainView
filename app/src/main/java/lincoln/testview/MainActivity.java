@@ -7,9 +7,10 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import lincoln.testview.lession1.XYLocationActivity;
-import lincoln.testview.lession2.ViewLifeActivity;
-import lincoln.testview.lession3.Lession3Activity;
+import lincoln.testview.view.lession1.XYLocationActivity;
+import lincoln.testview.view.lession2.ViewLifeActivity;
+import lincoln.testview.view.lession3.Lession3Activity;
+import lincoln.testview.view.lession4.BezierAcivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.lession3)
     public void lession3() {
         MainUtil.goToNewActivity(this, Lession3Activity.class);
+    }
+
+    @OnClick(R.id.lession4)
+    public void lession4() {
+        MainUtil.goToNewActivity(this, BezierAcivity.class);
     }
 
 }
