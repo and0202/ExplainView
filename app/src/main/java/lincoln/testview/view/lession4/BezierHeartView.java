@@ -6,6 +6,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -183,6 +184,8 @@ public class BezierHeartView extends View {
 
             mCtrl[4] -= 20/mCount;
             mCtrl[10] += 20/mCount;
+
+            Log.d("lincoln","current:"+mCurrent+" mDuration:"+mDuration+" mData[1]"+mData[1]);
 
             postInvalidateDelayed((long) mPiece);
         }
